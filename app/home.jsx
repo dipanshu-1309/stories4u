@@ -33,7 +33,7 @@ const Home = () => {
     <View style={styles.bg}>
 
     <ScreenWrapper>
-      <Header title="Library" showBackButton={true}/>
+      <Header title="Library" showBackButton={false}/>
       <FlatList
           data={stories}
           keyExtractor={(item) => item.id}
