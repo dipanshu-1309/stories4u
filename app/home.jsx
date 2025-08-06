@@ -8,7 +8,7 @@ const stories = [
   {
     id: '1',
     title: 'Offline',
-    image: require('../assets/images/maryandjames.jpg'),
+    image: require('./assets/images/maryandjames.jpg'),
     route: '/(main)/offline'
   },
   {
